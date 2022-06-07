@@ -11,12 +11,10 @@ int main(void)
 int a;
 for (a = 48; a < 58; a++)
 {
-if (a == 57)
 putchar(a);
 
-else
+if (a != 57;)
 {
-putchar(a);
 putchar(',');
 putchar(' ');
 }
