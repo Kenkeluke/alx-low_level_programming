@@ -11,7 +11,7 @@ int main(void)
 char a;
 for (a = 97; a < 123; a++)
 {
-if (a == 101 || a == 112)
+if (a == 101 || a == 113)
 {
 continue;
 }
