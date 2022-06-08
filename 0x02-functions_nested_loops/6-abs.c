@@ -1,0 +1,28 @@
+#include "main.h"
+
+/**
+ *_abs - entry point
+ *Description: This function prints the absolute value of an integer
+ *
+ *@n : represents integer parameter
+ *
+ *Return: 0, always success
+ *
+ *
+ */
+
+int _abs(int n)
+{
+int absValue;
+if (n < 0)
+{
+absValue = -1 * n;
+return (absValue);
+}
+else
+{
+absValue = n;
+return (absValue);
+}
+return (0);
+}
