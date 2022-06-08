@@ -1,0 +1,20 @@
+ #include "main.h"
+
+/**
+ * print_alphabet- entry point
+ * Description :This function prints *lowercase letters using loops
+ *
+ *
+ * returns void, always success
+ *
+ *
+ */
+
+
+
+void print_alphabet(void) {
+int a;
+for (a = 97; a < 123; a++)
+_putchar(a);
+_putchar('\n')
+}
