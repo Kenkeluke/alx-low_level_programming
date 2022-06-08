@@ -37,6 +37,7 @@ min[0] = j;
 min[1] = k;
 _putchar(min[0] + '0');
 _putchar(min[1] + '0');
+_putchar(' ')
 _putchar('\n');
 }
 }
