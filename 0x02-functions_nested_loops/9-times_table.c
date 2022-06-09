@@ -41,8 +41,6 @@ if (i < 9)
 _putchar(',');
 _putchar(' ');
 }
-else if (h == 0)
-_putchar(' ');
 else
 _putchar(' ');
 }
