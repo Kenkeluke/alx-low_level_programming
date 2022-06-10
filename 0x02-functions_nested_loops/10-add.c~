@@ -1,0 +1,18 @@
+#include "main.h"
+
+/**
+*add - entry point
+*Description:This function returns the result of addition of two integers,a & b
+*
+*@int a : parameters for the addition
+*
+*Return: an integer value;
+*
+*
+*/
+
+int add(int a, b)
+{
+int result = a + b;
+return (result);
+}
