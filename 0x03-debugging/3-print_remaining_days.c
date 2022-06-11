@@ -16,7 +16,7 @@ if ((year % 100 == 0  && year % 400 == 0) || (year % 4 == 0))
 {
 if (month >= 2 && day < 60)
 {
-printf("Invalid date: %02d/%02d/%04d\n", month, day - 31, year);
+printf("Invalid date: %02d/%02d/%04d\n", month, day, year);
 }
 
 printf("Day of the year: %d\n", day);
@@ -26,7 +26,7 @@ else
 {
 if (month == 2 && day == 60)
 {
-printf("Invalid date: %02d/%02d/%04d\n", month, day - 31, year);
+printf("Invalid date: %02d/%02d/%04d\n", month, day, year);
 }
 else
 {
