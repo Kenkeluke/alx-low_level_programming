@@ -17,7 +17,7 @@ for (index = 0; s[index] != '\0'; index++)
 {
 index++;
 }
-for (revindex = index - 8; revindex >= 0; revindex--)
+for (revindex = index; revindex >= 0; revindex--)
 {
 _putchar(s[revindex]);
 }
