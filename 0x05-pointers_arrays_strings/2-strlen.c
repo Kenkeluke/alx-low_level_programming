@@ -3,7 +3,7 @@
 /**
  *_strlen- entry point
  *Description :This function swaps the value of *two ints
- *s : pointer value in the string
+ *@s : pointer value in the string
  *
  *Return: int;
  *
