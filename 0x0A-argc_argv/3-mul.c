@@ -21,7 +21,7 @@ int i;
 if (argc != 3)
 {
 printf("Error\n");
-
+return (1);
 }
 
 i = atoi(argv[1]) * atoi(argv[2]);
