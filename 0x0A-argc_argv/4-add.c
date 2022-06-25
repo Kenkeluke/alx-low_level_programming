@@ -1,16 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
- /**
- *main - entry point
- *Description :The command line followed by a new line
- * @argc: number of arguments
- * @argv: array of arguments type into the
- * command line
- *
- * Return: Always 0.
- */
 
+/**
+ *main - entry point
+ *description: This function prints the sum of numbers passed as arguments
+ *@argc: number of arguments
+ *@argv: string of arguments
+ *Return: 0
+ */
 int main(int argc, char *argv[])
 {
 int i, j, sum = 0;
