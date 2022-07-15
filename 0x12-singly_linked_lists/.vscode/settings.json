@@ -9,5 +9,6 @@
         ".history": true,
         ".vscode": true
     },
-    "explorerExclude.backup": null
+    "explorerExclude.backup": null,
+    "C_Cpp.errorSquiggles": "Disabled"
 }
