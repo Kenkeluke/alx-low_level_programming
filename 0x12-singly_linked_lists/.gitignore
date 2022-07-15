@@ -51,6 +51,6 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-main.c
+*main.c
 _putchar.c
 .history
