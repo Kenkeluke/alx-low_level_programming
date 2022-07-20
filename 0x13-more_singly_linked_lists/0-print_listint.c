@@ -13,15 +13,12 @@
 size_t print_listint(const listint_t *h)
 {
 size_t num_nodes = 0;
-const listint_t *node = (listint_t *)malloc(sizeof(listint_t));
-node = h;
-if(node == NULL) printf("NULL");
-
 /*bringing in the loop*/
-while (node != NULL)
+while (h != NULL)
 {
 num_nodes++;
-node =  node->next;
+printf("%u\n", h->n);
+h =  h->next;
 }
 return (num_nodes);
 
