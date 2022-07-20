@@ -14,6 +14,7 @@ num_elements = 0;
 while (h->next != NULL)
 {
 num_elements++;
+h = h->next;
 }
 return (num_elements);
 }
