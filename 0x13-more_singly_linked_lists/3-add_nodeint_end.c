@@ -18,10 +18,10 @@ listint_t *last_node = malloc(sizeof(listint_t));
 last_node = *head;
 new_node->n = n;
 new_node->next = NULL;
-if(head == NULL)
+if (head == NULL)
 {
 *head = new_node;
-return(*head);
+return (*head);
 }
 while (last_node->next != NULL)
 {
