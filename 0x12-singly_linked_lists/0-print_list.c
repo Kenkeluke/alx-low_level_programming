@@ -19,7 +19,7 @@ printf("[0] (nil)\n");
 }
 else
 {
-printf("[%u]", node->len);
+printf("[%d]", node->len);
 printf("%s\n", node->str);
 }
 node = node->next;
