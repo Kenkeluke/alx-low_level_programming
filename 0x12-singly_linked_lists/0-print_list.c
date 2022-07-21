@@ -19,8 +19,7 @@ printf("[0] (nil)\n");
 }
 else
 {
-printf("[%d]", node->len);
-printf("%s\n", node->str);
+printf("[%d] %s\n", node->len, node->str);
 }
 node = node->next;
 count++;
