@@ -1,0 +1,33 @@
+include "main.h"
+
+/**
+*binary_to_uint - A function that convert a binary number to unsigned integer
+*Description:
+*@b: Binary number parameter
+*Return: unsigned integer
+*
+*/
+
+unsigned int binary_to_uint(const char *b)
+{
+unsigned int decimal;
+int n = length(b) -1;
+   
+int i, e = 0;
+for(i = n; i >= 0; i--)
+{
+if(b[i] != 48 &&b[i] != 49)
+{
+    decimal = 0;
+    break;
+}
+if(b[i] == 48)
+decimal = decimal + (0 * (power(2, e)));
+if(b[i] == 49)
+decimal = decimal + (1 * (power(2, e)));
+e++;
+}
+
+
+return (decimal);
+}
