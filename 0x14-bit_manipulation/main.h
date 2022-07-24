@@ -9,6 +9,7 @@ int _putchar(char c);
 unsigned int binary_to_uint(const char *b);
 int power(int a, int b);
 int length(const char *s);
+void print_binary(unsigned long int n);
 
 
 

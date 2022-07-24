@@ -57,14 +57,14 @@ int n = length(b) - 1;
 int i, e = 0;
 for (i = n; i >= 0; i--)
 {
-	if (b[i] != 48 && b[i] != 49)
+	if (b[i] != '0' && b[i] != '1')
 {
 	decimal = 0;
 	break;
 }
-if (b[i] == 48)
-decimal = decimal + (0 * (power(2, e)));
-if (b[i] == 49)
+if (b[i] == '0')
+decimal = decimal + 0;
+if (b[i] == '1')
 decimal = decimal + (1 * (power(2, e)));
 e++;
 }
