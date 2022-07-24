@@ -55,7 +55,8 @@ unsigned int decimal;
 int n = length(b) - 1;
 
 int i, e = 0;
-for (i = n; i >= 0; i--)
+
+	for (i = n; i >= 0; i--)
 {
 	if (b[i] != '0' && b[i] != '1')
 {
@@ -71,4 +72,8 @@ e++;
 
 
 return (decimal);
+
 }
+
+
+
